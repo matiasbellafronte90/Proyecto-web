@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Web</title>
+    <meta name="author" content="Matias Bellafronte">
+    <meta name="description" content="Mi primer proyecto web">
+    <meta name="keywords" content="tutorial, proyecto, proyecto">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+</body>
+<!-- 
+    ATAJOS! ALT+SHIFT+ABAJO = DUPLICA LINEAS
+    
+    <img src="fuente de donde sale " alt="descripcion de imagen" width="ancho" height="alto">
+<video src="enlace a video" controls autoplay></video> -->
+<!-- 
+<audio src="fuente de audio" controls></audio> (siempre poner controls para que aparesca la opcion de reproducir en nuestra pantalla) -->
+--------------------------------------------
+<!-- LISTAS}
+
+    LISTA DESORDENADA.
+
+    <H2>lISTA DE super</H2>
+    <hr>
+    <ul>
+        <li>cafe</li>
+        <li>yerba</li>
+        <li>azucar</li>
+        <li>carne</li>
+        <li>gil</li>
+    </ul>
+    
+----------
+
+LISTA ORDENADA.
+
+    <h2>Lista de actividades diarias</h2>
+    
+    <hr>
+    <ol>
+        <li>despertar</li>
+        <li>trabajar</li>
+        <li>entrenar</li>
+        <li>dormir</li>
+    </ol>
+-->
+<!-- 
+    Formas de agrupar:
+
+    Si utilizamos la etiqueta <div> </div> estamos agrupando en BLOQUE, es decir va a utilizar todo el ancho que pueda.
+
+    Si utilizamos la etiqueta <span> </span> estamos agrupando en linea, es decir utiliza solo el espacio que esta escrito.
+-->
+<!--
+    Iframe:
+    Esta etiqueta se utiliza para compartir contenido de terceros, por ejemplo videos de youtube. En youtube si vos pones compartir, te aparece la opcion para poder copiar y pegar el mismo codigo. Incluso podemos poner otras paginas, como por ejemplo maps de google.
+
+-->
+<!--
+    FORMULARIOS:
+    Todo lo que se utilice para ingresar datos, es un formulario.
+    En form podemos poner en la parte de action, a donde vamos a enviar nuestro formulario, es decir a que backend.
+    y con el metodo "POST" estamos enviando todo el formulario como un solo cuerpo, a diferencia del metodo "GET" que es para enviar solo la url del formulario.
+    Tambien podemos limitar el maximo y minimo de caracteres que queremos utilizar en nuestro formulario utilizando los valores de maxlength y minlength . 
+    Si utilizamos el valor "required" nos obliga a completar el campo seleccionado.
+
+    Este es un modelo de formulario predeterminado:
+
+<form action="envio.php" method="POST">
+    <label for="Usuario"></label>
+    <input type="text" id="Usuario" name="Usuario" placeholder="nombre">
+    <label for="Contraseña"></label>
+    <input type="password" id="Contraseña" name="Contraseña" placeholder="Escribe aqui tu Contraseña">
+</form>
+---
+Tambien podemos utilizar checkboxs, que es la cajita donde podemos tildar si estamos de acuerdo o no.
+
+Si utilizamos el type "radio" solo vamos a poder seleccionar una opcion, en cambio con checkbox se pueden seleccionar varios a la vez.
+
+<input type="checkbox" name="condicion" id="condicion" value="condicion">condicion
+---
+Si queremos utilizar solo elementos del tipo numerico podemos usar el type number: 
+
+<label for="programando">Años programando</label>
+<input type="number" id="programando" name="programando" placeholder="años programando">
+---
+Con type file podemos subir archivos desde nuestro ordenador a la web:
+
+<label for="archivo">Subi tu curriculum</label>
+<input type="file" id="archivo" name="archivo" value="file">
+---
+Con textarea podemos dejar un espacio para que nos envien un texto, ya sea opiniones u otras cosas.
+
+<label for="opinion">Subi tu curriculum</label>
+<textarea name="opinion" id="opinion" placeholder="Ingrese su opinion" cols="30" rows="10"></textarea>
+---
+Con select podemos desplegar un listado con distintas opciones para elegir.
+
+<label for="pais">Selecciona tu pais</label>
+<select name="pais" id="pais">
+    <option value="Argentina">Argentina</option>
+    <option value="Francia">Francia</option>
+</select>
+
+---
+Con el type submit podemos enviar el formulario a nuestro backend, ademas tenemos el type reset que como su nombre indica sirve para resetar todo de cero.
+
+<input type="submit" value="enviar datos">
+<input type="reset" value="reset">
+-----
+
+Tenemos ademas el type date con el que elegimos la fecha. En las opciones podemos modificar el maximo y el minimo de fechas.
+
+<label for="fecha">Fecha de ingreso laboral</label>
+<input type="date" name="fecha" id="fecha" max="2023-08-08">
+
+-->
+<!--
+    Imagenes SVG:
+    La ventaja de svg es que no se pixela. La imagen se pueda bajar de google y modificar.
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
